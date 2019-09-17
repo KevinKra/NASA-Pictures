@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <SplashImage />
+    <ImageSelection />
   </div>
 </template>
 
 <script>
 import SplashImage from "./components/SplashImage";
+import ImageSelection from "./components/ImageSelection";
 
 export default {
   name: "app",
   components: {
-    SplashImage
+    SplashImage,
+    ImageSelection
   },
   data() {
     return {
@@ -43,6 +46,7 @@ export default {
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(44, 44, 44);
 }
 .btn {
   color: red;
