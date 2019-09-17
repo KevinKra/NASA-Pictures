@@ -1,29 +1,24 @@
-# nasa-project
+# Nasa Daily
 
-## Project setup
-```
-npm install
-```
+A simple application to display unique data from the Nasa API regarding interesting photos or events that are happening in the universe on a daily basis.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Installation
 
-### Compiles and minifies for production
-```
-npm run build
-```
+1. clone the project
+2. run `npm install` to install the dependencies
+3. run `npm run serve` to run the server on localhost:8080
 
-### Run your tests
-```
-npm run test
-```
+## Technology
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Vue
+- CSS
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
