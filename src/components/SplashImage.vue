@@ -31,8 +31,10 @@ export default {
 .SplashImage {
   background-color: rgb(48, 47, 47);
   color: white;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
+  box-shadow: 1px 1px 5px black;
 }
 .image-primary {
   height: 80vh;
@@ -40,7 +42,6 @@ export default {
   background-size: cover;
 }
 .image-explanation {
-  min-height: 20vh;
   padding: 0.5rem 1rem;
 }
 h2 {
