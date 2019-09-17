@@ -12,7 +12,8 @@
     "core-js": "^2.6.5",
     "uuid": "^3.3.3",
     "vue": "^2.6.10",
-    "vue-axios": "^2.1.4"
+    "vue-axios": "^2.1.4",
+    "vue-youtube-embed": "^2.2.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
